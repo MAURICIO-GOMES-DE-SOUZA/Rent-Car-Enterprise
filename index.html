@@ -1,273 +1,305 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Site de empresa para aluguel de carros" />
-    <meta name="author" content="Mauricio Gomes" />
-    <meta name="creator" content="Reprograma Jucás" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Rent Car Enterprise</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-  </head>
-  <body>
-    <header>
-      <h2>meu primeiro pojeto</h2>
-      <div class="circle circle1"></div>
-      <div class="circle circle2"></div>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel's Agency</title>
+    <link rel="shortcut icon" href="./images/logo-rj.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <div id="page-home" class="page">
+        <header>
+            <img src="images/logo1.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" id="home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="pages/gallery.html">PLANOS</a>
+                    </li>
+                    <li>
+                        <a href="pages/contact.html">CONTATO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-      <div class="wheelIcon">
-        <img src="./images/pneu.png" alt="" />
-      </div>
-      <article>
-        <section class="boxMenu">
-          <a href="#">
-            <img src="./images/logo-rj.png" alt="Logo" class="imageLogo" />
-          </a>
-
-          <nav class="Menu">
-            <ul>
-              <li><a href="#ourServices">Nossos Serviços</a></li>
-              <li><a href="#whyChooseUsContainer">Por que nós?</a></li>
-              <li><a href="#howItWorksContainer">Como Funciona?</a></li>
-              <li><a href="#contact">Contato</a></li>
-            </ul>
-          </nav>
+        <section class="imagesShowBar">
+            <img src="images/image-slide1.jpg" alt="" class="imageShowBar">
+            <img src="images/image-slide2.jpg" alt="" class="imageShowBar">
+            <img src="images/image-slide3.jpg" alt="" class="imageShowBar">
+            <img src="images/image-slide4.jpg" alt="" class="imageShowBar">
+            <img src="images/image-slide5.jpg" alt="" class="imageShowBar">
+            <img src="images/image-slide6.jpg" alt="" class="imageShowBar">
         </section>
 
-        <section class="containerSlogan">
-          <div class="boxSlogan">
-            <h1>Rent Car Enterprise</h1>
-            <p>
-              Este é meu projeto do curso web development como experiência  para a aréa de desenvolvedor.
-              Um pequeno projeto sobre aluguel de crros... Bem da hora.
-            </p>
-            <button>Contate-nos</button>
-          </div>
-          <div class="boxImageSaleswoman">
-            <img src="./images/saleswoman.png" alt="Saleswoman" />
-          </div>
+        <section class="container">
+            <main>
+                <article>
+                    <section class="mainLogo logo">
+                        <div>
+                            <h2>Travel's <span>Agency</span></h2>
+                        </div>
+                        <div class="boxImageLogo">
+                            <img src="images/logoCirclePNG.png" alt="" class="mainImageLogo">
+                            <img src="images/logoPlanePNG.png" alt="" class="mainImageLogo mainImageLogoPlane">
+                        </div>
+                    </section>
+                    <section>
+                        <p class="mainSlogan">- Viaje com a gente -</p>
+                        <p>
+                            Com até <strong>50%</strong> de desconto somente este mês
+                        </p>
+                    </section>
+                </article>
+            </main>
+
+            <aside>
+                <article class="cards">
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#franceDescribe">
+                                <img src="images/image-card1.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>França</h3>
+                            <p>A partir de R$ 2450</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#franceDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#southAfricaDescribe">
+                                <img src="images/image-card2.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>África do Sul</h3>
+                            <p>A partir de R$ 2580</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#southAfricaDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#greeceDescribe">
+                                <img src="images/image-card3.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Grécia</h3>
+                            <p>A partir de R$ 2470</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#greeceDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#germanyDescribe">
+                                <img src="images/image-card4.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Alemanha</h3>
+                            <p>A partir de R$ 2640</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#germanyDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#norwayDescribe">
+                                <img src="images/image-card5.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Noruega</h3>
+                            <p>A partir de R$ 2240</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#norwayDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#unitedStatesDescribe">
+                                <img src="images/image-card6.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Estados Unidos</h3>
+                            <p>A partir de R$ 2850</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#unitedStatesDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#indiaDescribe">
+                                <img src="images/image-card7.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Índia</h3>
+                            <p>A partir de R$ 1860</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#indiaDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#englandDescribe">
+                                <img src="images/image-card8.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Inglaterra</h3>
+                            <p>A partir de R$ 2980</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#englandDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#egyptDescribe">
+                                <img src="images/image-card9.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Egito</h3>
+                            <p>A partir de R$ 2450</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#egyptDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#qatarDescribe">
+                                <img src="images/image-card10.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Catar</h3>
+                            <p>A partir de R$ 3240</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#qatarDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#mexicoDescribe">
+                                <img src="images/image-card11.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>México</h3>
+                            <p>A partir de R$ 2260</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#mexicoDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <div class="cardPart1">
+                            <a href="pages/gallery.html#australiaDescribe">
+                                <img src="images/image-card12.jpg" alt="image" class="imgCard">
+                            </a>
+                        </div>
+                        <div class="cardPart2">
+                            <h3>Austrália</h3>
+                            <p>A partir de R$ 2530</p>
+                            <p>Em até 12x</p>
+
+                            <a href="pages/gallery.html#australiaDescribe">
+                                <button class="buttonCard">Saiba mais</button>
+                            </a>
+                        </div>
+                    <section>
+                </article>
+            </aside>
         </section>
-      </article>
-    </header>
-    <main>
-      <article>
-        <section class="ourServicesContainer" id="ourServices">
-          <h2>Nossos Serviços</h2>
-          <div class="cardsOurServices">
-            <div class="cardOurServices">
-              <div class="imageBox">
-                <img src="./images/car-png-2.png  " alt="" />
-              </div>
-              <div class="textBox">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                  eos voluptates quibusdam harum aspernatur, fuga, debitis
-                  reiciendis obcaecati dolorum beatae quas. Tenetur ad incidunt
-                  animi voluptas modi omnis vero eligendi.
-                </h3>
-              </div>
-            </div>
-            <div class="cardOurServices">
-              <div class="imageBox">
-                <img src="./images/car-png-2.png  " alt="" />
-              </div>
-              <div class="textBox">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                  eos voluptates quibusdam harum aspernatur, fuga, debitis
-                  reiciendis obcaecati dolorum beatae quas. Tenetur ad incidunt
-                  animi voluptas modi omnis vero eligendi.
-                </h3>
-              </div>
-            </div>
-            <div class="cardOurServices">
-              <div class="imageBox">
-                <img src="./images/car-png-2.png  " alt="" />
-              </div>
-              <div class="textBox">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                  eos voluptates quibusdam harum aspernatur, fuga, debitis
-                  reiciendis obcaecati dolorum beatae quas. Tenetur ad incidunt
-                  animi voluptas modi omnis vero eligendi.
-                </h3>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="whyChooseUsContainer" id="whyChooseUsContainer">
-          <div class="imageSalesPerson">
-            <div class="circle"></div>
-            <img src="images/sales-person-car-showroom.png" alt="" />
-          </div>
-          <div class="boxsWhyChooseUs">
-            <h2>Por que nos Escolher?</h2>
-            <div class="cardsWhyChooseUs">
-              <div class="cardWhyChooseUs">
-                <div class="boxImage">
-                  <img src="./iagens 2/dollar.png" alt="" />
+
+        <footer>
+            <section class="footerLogo logo">
+                <div>
+                    <h2>Travel's <span>Agency</span> </h2>
+                    <p>- Viaje com a gente -</p>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Deserunt voluptates voluptatibus deleniti repudiandae ad
-                  dolorem debitis consectetur enim.
-                </p>
-              </div>
 
-              <div class="cardsWhyChooseUs">
-                <div class="cardWhyChooseUs">
-                  <div class="boxImage">
-                    <img src="./iagens 2/time-add.png" alt="" />
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Deserunt voluptates voluptatibus deleniti repudiandae ad
-                    dolorem debitis consectetur enim.
-                  </p>
+                <div>
+                    <img src="images/logo1.png" alt="" class="footerImageLogo">
                 </div>
-              </div>
+            </section>
 
-              <div class="cardsWhyChooseUs">
-                <div class="cardWhyChooseUs">
-                  <div class="boxImage">
-                    <img src="./iagens 2/map-marker.png" alt="" />
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Deserunt voluptates voluptatibus deleniti repudiandae ad
-                    dolorem debitis consectetur enim.
-                  </p>
+            <section class="footerLocal">
+                <h3>Nossa localização</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31712.068535705224!2d-39.5245509!3d-6.5205975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a2f719b740e767%3A0x833bf57677c864a4!2zSnVjw6FzLCBDRSwgNjM1ODAtMDAw!5e0!3m2!1spt-BR!2sbr!4v1665240420575!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <section class="footerSocialMedias">
+                <h3>Siga-nos</h3>
+                <div class="FooterSocialMediaLogos">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/logo-facebook.png" alt="faceLogo">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/logo-instagram.png" alt="instaLogo">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="images/logo-youtube.png" alt="youtubeLogo">
+                    </a>
                 </div>
-              </div>
+            </section>
+        </footer>
+    </div>
+</body>
 
-              <div class="cardsWhyChooseUs">
-                <div class="cardWhyChooseUs">
-                  <div class="boxImage">
-                    <img src="./iagens 2/comment-check.png" alt="" />
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Deserunt voluptates voluptatibus deleniti repudiandae ad
-                    dolorem debitis consectetur enim.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="howItWorksContainer" id="howItWorksContainer">
-          <h2>Como Funciona?</h2>
-          <div class="cardsHowItWorks">
-            <div class="cardHowItWorks">
-              <img src="./images/family-car-3.jpg" alt="" />
-              <h3>Reserva</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
-                nostrum quia ipsa commodi atque similique blanditiis ex non
-                temporibus soluta velit neque sapiente, dolorem vel iure omnis
-                corporis corrupti rerum.
-              </p>
-            </div>
-            <div class="cardHowItWorks">
-              <img src="./images/family-car-1.jpg" alt="" />
-              <h3>Reserva</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
-                nostrum quia ipsa commodi atque similique blanditiis ex non
-                temporibus soluta velit neque sapiente, dolorem vel iure omnis
-                corporis corrupti rerum.
-              </p>
-            </div>
-            <div class="cardHowItWorks">
-              <img src="./images/family-car-2.png" alt="" />
-              <h3>Reserva</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
-                nostrum quia ipsa commodi atque similique blanditiis ex non
-                temporibus soluta velit neque sapiente, dolorem vel iure omnis
-                corporis corrupti rerum.
-              </p>
-            </div>
-          </div>
-        </section>
-      </article>
-    </main>
-    <footer>
-      <div class="container" id="contact">
-        <article>
-          <section class="subscribe">
-            <h3>Fale Conosco</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              animi sint corrupti corporis, nobis debitis atque.
-            </p>
-            <form action="">
-              <input type="email" placeholder="Digite seu e-mail" />
-              <button>Inscrever-se</button>
-            </form>
-          </section>
-          <section class="contacts">
-            <h3>Contatos</h3>
-
-            <div class="contact">
-              <strong>Telefone</strong>
-              <p>(88) 98133-1926</p>
-            </div>
-
-            <div class="contact">
-              <strong>E-mail</strong>
-              <p>gomizmauricio@gmail.com</p>
-            </div>
-            <div class="socialMedias">
-              <a href="facebook.com/MauricioSouza">
-                <div class="logo">
-                  <img src="./iagens 2/logo-facebook.png" alt="" />
-                </div>
-                <strong>Facebook</strong>
-              </a>
-
-              <a href="Instagran.com/MauricioSouza">
-                <div class="logo">
-                  <img src="./iagens 2/logo-instagram.png" alt="" />
-                </div>
-                <strong>Instagram</strong>
-              </a>
-            </div>
-          </section>
-
-          <section class="local">
-            <h3>Localização</h3>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0070038481244!2d-39.5292121260997!3d-6.520795163746444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a2f2555326e5cb%3A0x79f5f4ac44bf3b6d!2sCENTEC%20CVT%20Juc%C3%A1s!5e0!3m2!1spt-BR!2sbr!4v1692228508093!5m2!1spt-BR!2sbr"
-              style="border: 0"
-              height="240"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </section>
-        </article>
-      </div>
-
-      <div class="help">
-        <a href="#">ajuda</a>
-        <a href="#">termos de uso</a>
-        <a href="#home">início</a>
-      </div>
-      
-      <div class="copyright">
-        <a href="https://emanuelquintino.github.io/Page-WDC/" target="_blank">
-          <strong>&copy; Reprograma Jucás</strong>
-        </a>
-      </div>
-    </footer>
-  </body>
 </html>
