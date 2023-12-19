@@ -1,22 +1,20 @@
-# Travels-Agency
+# RentCar Enterprise
 
-<img src="https://emanuelquintino.github.io/Page-WDC/images/screenSiteTravel.png" alt="image">
+![RentCar Enterprise](./images/rentcar-enterprise-background.png)
 
-<p> 
-  Site criado com os alunos do curso de Desenvolvimento Web para conclusão dos módulos de HTML e CSS. 
-</p>
+Este projeto foi desenvolvido na conclusão dos módulos de HTML e CSS do curso de Desenvolvimento Web. A landing page é dedicada a uma empresa fictícia de aluguel de carros, fornecendo informações básicas sobre os serviços oferecidos.
 
-<p>
-  Foi abordado o conteúdo de:
-</p>
+## Tecnologias Utilizadas
 
-- Semântica 
-- Lista
-- Tabela 
-- Formulário
-- Flex 
-- Grid
+- HTML
+  - Semântica
+  - Formulários
+  - Multimídia
+- CSS
+  - Mobile-First
+  - Responsividade
+  - Animações
 
-<p>
-  Mais as propriedades relativas de cada um, além do conceito de Mobile First e Técnicas de Responsividade.
-</p>
+## Links
+
+- [Deploy](https://emanuelquintino.github.io/RentCar-Enterprise/)

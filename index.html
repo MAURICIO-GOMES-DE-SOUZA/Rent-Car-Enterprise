@@ -1,305 +1,279 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel's Agency</title>
-    <link rel="shortcut icon" href="./images/logo-rj.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/index.js" defer></script>
-</head>
-<body>
-    <div id="page-home" class="page">
-        <header>
-            <img src="images/logo1.png" alt="logo" class="logo">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html" id="home">HOME</a>
-                    </li>
-                    <li>
-                        <a href="pages/gallery.html">PLANOS</a>
-                    </li>
-                    <li>
-                        <a href="pages/contact.html">CONTATO</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site de empresa para aluguel de carros" />
+    <link rel="shortcut icon" href="images/logo-rj.png" type="image/x-icon" />
+    <meta name="author" content="Mauricio Gomes" />
+    <meta name="creator" content="Reprograma Jucás" />
+    <title>RentCar Enterprise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
 
-        <section class="imagesShowBar">
-            <img src="images/image-slide1.jpg" alt="" class="imageShowBar">
-            <img src="images/image-slide2.jpg" alt="" class="imageShowBar">
-            <img src="images/image-slide3.jpg" alt="" class="imageShowBar">
-            <img src="images/image-slide4.jpg" alt="" class="imageShowBar">
-            <img src="images/image-slide5.jpg" alt="" class="imageShowBar">
-            <img src="images/image-slide6.jpg" alt="" class="imageShowBar">
+    <script>
+      function messageSubscribe() {
+        alert("Obrigado por se inscrever em nossa página!");
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="circle circle1"></div>
+      <div class="circle circle2"></div>
+
+      <div class="wheelIcon">
+        <img src="./images/png-pneu.png" />
+      </div>
+
+      <article>
+        <section class="boxMenu">
+          <a href="" class="imageLogo">
+            <img src="./images/logo-rent-car.png" alt="logo" />
+          </a>
+
+          <nav class="menu">
+            <ul>
+              <li>
+                <a href="#ourServices">Nossos Serviços</a>
+              </li>
+
+              <li>
+                <a href="#whyChooseUs">Por que nós?</a>
+              </li>
+
+              <li>
+                <a href="#howItWorks">Como funciona?</a>
+              </li>
+
+              <li>
+                <a href="#contact">Contato</a>
+              </li>
+            </ul>
+          </nav>
         </section>
 
-        <section class="container">
-            <main>
-                <article>
-                    <section class="mainLogo logo">
-                        <div>
-                            <h2>Travel's <span>Agency</span></h2>
-                        </div>
-                        <div class="boxImageLogo">
-                            <img src="images/logoCirclePNG.png" alt="" class="mainImageLogo">
-                            <img src="images/logoPlanePNG.png" alt="" class="mainImageLogo mainImageLogoPlane">
-                        </div>
-                    </section>
-                    <section>
-                        <p class="mainSlogan">- Viaje com a gente -</p>
-                        <p>
-                            Com até <strong>50%</strong> de desconto somente este mês
-                        </p>
-                    </section>
-                </article>
-            </main>
+        <section class="containerSlogan">
+          <div class="boxSlogan">
+            <h1>RentCar Enterprise</h1>
+            <p>
+              Reserve agora e experimente a liberdade da mobilidade! A
+              <strong>RentCar Enterprise</strong> sua parceira de confiança em aluguel de
+              carros.
+            </p>
+            <a href="https://emanuelquintino.github.io/Page-WDC/" target="_blank">
+              <button>Contate-nos</button>
+            </a>
+          </div>
 
-            <aside>
-                <article class="cards">
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#franceDescribe">
-                                <img src="images/image-card1.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>França</h3>
-                            <p>A partir de R$ 2450</p>
-                            <p>Em até 12x</p>
+          <div class="boxImageSaleswoman">
+            <img src="./images/png-saleswoman.png" alt="saleswoman" />
+          </div>
+        </section>
+      </article>
+    </header>
 
-                            <a href="pages/gallery.html#franceDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
+    <main>
+      <article>
+        <section class="ourServicesContainer" id="ourServices">
+          <h2>Nossos Serviços</h2>
+          <div class="cardsOurServices">
+            <div class="cardOurServices">
+              <div class="imageBox">
+                <img src="./images/car-png-2.png" alt="image" />
+              </div>
+              <div class="textBox">
+                <h3>Variedade de Veículos</h3>
+                <p>
+                  Oferecemos uma ampla seleção de veículos, desde econômicos e compactos
+                  até SUVs de luxo e veículos familiares espaçosos. Não importa qual seja
+                  a sua necessidade, temos o carro perfeito para você.
+                </p>
+              </div>
+            </div>
 
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#southAfricaDescribe">
-                                <img src="images/image-card2.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>África do Sul</h3>
-                            <p>A partir de R$ 2580</p>
-                            <p>Em até 12x</p>
+            <div class="cardOurServices">
+              <div class="imageBox">
+                <img src="./images/car-png-1.png" alt="image" />
+              </div>
+              <div class="textBox">
+                <h3>Aluguel de Longo Prazo</h3>
+                <p>
+                  Planejando uma estadia prolongada? Nosso serviço de aluguel de longo
+                  prazo oferece preços especiais para locações estendidas, tornando-o
+                  ideal para expatriados, estudantes e projetos de trabalho.
+                </p>
+              </div>
+            </div>
 
-                            <a href="pages/gallery.html#southAfricaDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#greeceDescribe">
-                                <img src="images/image-card3.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Grécia</h3>
-                            <p>A partir de R$ 2470</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#greeceDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#germanyDescribe">
-                                <img src="images/image-card4.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Alemanha</h3>
-                            <p>A partir de R$ 2640</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#germanyDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#norwayDescribe">
-                                <img src="images/image-card5.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Noruega</h3>
-                            <p>A partir de R$ 2240</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#norwayDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#unitedStatesDescribe">
-                                <img src="images/image-card6.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Estados Unidos</h3>
-                            <p>A partir de R$ 2850</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#unitedStatesDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#indiaDescribe">
-                                <img src="images/image-card7.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Índia</h3>
-                            <p>A partir de R$ 1860</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#indiaDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#englandDescribe">
-                                <img src="images/image-card8.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Inglaterra</h3>
-                            <p>A partir de R$ 2980</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#englandDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#egyptDescribe">
-                                <img src="images/image-card9.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Egito</h3>
-                            <p>A partir de R$ 2450</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#egyptDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#qatarDescribe">
-                                <img src="images/image-card10.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Catar</h3>
-                            <p>A partir de R$ 3240</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#qatarDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#mexicoDescribe">
-                                <img src="images/image-card11.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>México</h3>
-                            <p>A partir de R$ 2260</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#mexicoDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    </section>
-
-                    <section class="card">
-                        <div class="cardPart1">
-                            <a href="pages/gallery.html#australiaDescribe">
-                                <img src="images/image-card12.jpg" alt="image" class="imgCard">
-                            </a>
-                        </div>
-                        <div class="cardPart2">
-                            <h3>Austrália</h3>
-                            <p>A partir de R$ 2530</p>
-                            <p>Em até 12x</p>
-
-                            <a href="pages/gallery.html#australiaDescribe">
-                                <button class="buttonCard">Saiba mais</button>
-                            </a>
-                        </div>
-                    <section>
-                </article>
-            </aside>
+            <div class="cardOurServices">
+              <div class="imageBox">
+                <img src="./images/car-png-3.png" alt="image" />
+              </div>
+              <div class="textBox">
+                <h3>Acessórios e Extras</h3>
+                <p>
+                  Personalize sua experiência de aluguel com uma variedade de acessórios,
+                  como GPS, assentos de criança e racks de teto, para tornar sua viagem
+                  ainda mais confortável e inesquecível.
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <footer>
-            <section class="footerLogo logo">
-                <div>
-                    <h2>Travel's <span>Agency</span> </h2>
-                    <p>- Viaje com a gente -</p>
+        <section class="whyChooseUsContainer" id="whyChooseUs">
+          <div class="imageSalesPerson">
+            <div class="circle"></div>
+            <img src="./images/png-showroom.png" alt="salesperson" />
+          </div>
+          <div class="boxWhyChooseUs">
+            <h2>Por que nos escolher?</h2>
+            <div class="cardsWhyChooseUs">
+              <div class="cardWhyChooseUs">
+                <div class="boxImage">
+                  <img src="./images/icon-dollar.png" alt="icon" />
                 </div>
+                <p>Não há taxas ocultas. Nossas tarifas são claras e competitivas!</p>
+              </div>
 
-                <div>
-                    <img src="images/logo1.png" alt="" class="footerImageLogo">
+              <div class="cardWhyChooseUs">
+                <div class="boxImage">
+                  <img src="./images/icon-time-add.png" alt="icon" />
                 </div>
-            </section>
+                <p>Todos os nossos carros passam por periódicas manutenções!</p>
+              </div>
 
-            <section class="footerLocal">
-                <h3>Nossa localização</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31712.068535705224!2d-39.5245509!3d-6.5205975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a2f719b740e767%3A0x833bf57677c864a4!2zSnVjw6FzLCBDRSwgNjM1ODAtMDAw!5e0!3m2!1spt-BR!2sbr!4v1665240420575!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-
-            <section class="footerSocialMedias">
-                <h3>Siga-nos</h3>
-                <div class="FooterSocialMediaLogos">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="images/logo-facebook.png" alt="faceLogo">
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="images/logo-instagram.png" alt="instaLogo">
-                    </a>
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <img src="images/logo-youtube.png" alt="youtubeLogo">
-                    </a>
+              <div class="cardWhyChooseUs">
+                <div class="boxImage">
+                  <img src="./images/icon-map-marker.png" alt="icon" />
                 </div>
-            </section>
-        </footer>
-    </div>
-</body>
+                <p>Retire e devolva seu carro em qualquer uma de nossas filiais.</p>
+              </div>
 
+              <div class="cardWhyChooseUs">
+                <div class="boxImage">
+                  <img src="./images/icon-comment-check.png" alt="icon" />
+                </div>
+                <p>Anos de experiência no setor, com confiabilidade e comprometimento!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="howItWorksContainer" id="howItWorks">
+          <h2>Como funciona?</h2>
+          <div class="cardsHowItWorks">
+            <div class="cardHowItWorks">
+              <img src="./images/car-keys-1.jpg" alt="image" />
+              <h3>Reserva</h3>
+              <p>
+                Visite nossas agências fale com um de nossos atendentes e escolha o
+                veículo, datas e horários de retirada e devolução.
+              </p>
+            </div>
+
+            <div class="cardHowItWorks">
+              <img src="./images/car-keys-2.png" alt="image" />
+              <h3>Confirmação</h3>
+              <p>
+                Após a reserva, assine o contrato de aluguel e receba sua chave. Nossos
+                agentes terão prazer em explicar todos os detalhes.
+              </p>
+            </div>
+
+            <div class="cardHowItWorks">
+              <img src="./images/car-keys-3.png" alt="image" />
+              <h3>Retirada</h3>
+              <p>
+                Chegue ao nosso local de retirada no horário agendado. Nossa equipe o
+                auxiliará no processo de documentação e entrega do veículo.
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container" id="contact">
+        <article>
+          <section class="subscribe">
+            <h3>Fale conosco</h3>
+            <p>
+              Nossa equipe está comprometida em fornecer conteúdo valioso e envolvente
+              para enriquecer sua experiência.
+            </p>
+            <form onsubmit="{messageSubscribe()}">
+              <input type="email" name="email" placeholder="Digite seu email" required />
+              <button type="submit">Inscrever-se</button>
+            </form>
+          </section>
+
+          <section class="contacts">
+            <h3>Contatos</h3>
+
+            <div class="contact">
+              <strong>Telefone</strong>
+              <p>(88) 99605-9913</p>
+            </div>
+
+            <div class="contact">
+              <strong>Email</strong>
+              <p>emanuelquintino@hotmail.com</p>
+            </div>
+
+            <div class="socialMedias">
+              <a href="https://facebook.com/emanuel.quintino">
+                <div class="logo">
+                  <img src="./images/logo-facebook.png" alt="facebook" />
+                </div>
+                <strong>Facebook</strong>
+              </a>
+
+              <a href="https://instagram.com/emanuel_quintino">
+                <div class="logo">
+                  <img src="./images/logo-instagram.png" alt="instagram" />
+                </div>
+                <strong>Instagram</strong>
+              </a>
+            </div>
+          </section>
+
+          <section class="local">
+            <h3>Localização</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.00696170027!2d-39.52921212621334!3d-6.5208004934717145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a2f2555326e5cb%3A0x79f5f4ac44bf3b6d!2sCENTEC%20CVT%20Juc%C3%A1s!5e0!3m2!1spt-BR!2sbr!4v1692228612716!5m2!1spt-BR!2sbr"
+              height="240"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <p>Rua Antônio Palácio Cavalcante, 113, Nossa Senhora de Fátima</p>
+          </section>
+        </article>
+      </div>
+
+      <div class="help">
+        <a href="#">início</a>
+        <a href="https://emanuelquintino.github.io/Page-WDC/" target="_blank">ajuda</a>
+        <a href="https://emanuelquintino.github.io/Page-WDC/" target="_blank"
+          >termos de uso</a
+        >
+      </div>
+
+      <div class="copyright">
+        <a href="https://emanuelquintino.github.io/Page-WDC/" target="_blank">
+          <strong>&copy; Reprograma Jucás</strong>
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
